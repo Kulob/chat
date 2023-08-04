@@ -16,17 +16,17 @@ function App() {
   };
   return (
     <Routes>
-      <Route path="/chat">
+      <Route path="/">
         <Route
-          path="/chat"
+          index
           element={
             <ProtectedRoute>
               <Home />
             </ProtectedRoute>
           }
         />
-        <Route path="/chat/login" element={<Login />} />
-        <Route path="/chat/register" element={<Regirter />} />
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Regirter />} />
       </Route>
     </Routes>
   );
