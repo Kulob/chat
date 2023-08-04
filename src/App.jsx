@@ -25,8 +25,8 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="login" element={<Login />} />
-        <Route path="register" element={<Regirter />} />
+        <Route path="/chat/login" element={<Login />} />
+        <Route path="/chat/register" element={<Regirter />} />
       </Route>
     </Routes>
   );
