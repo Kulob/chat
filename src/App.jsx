@@ -18,7 +18,7 @@ function App() {
     <Routes>
       <Route path="/chat">
         <Route
-          index
+          path="/chat"
           element={
             <ProtectedRoute>
               <Home />
